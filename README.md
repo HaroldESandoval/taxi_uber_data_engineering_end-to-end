@@ -1,4 +1,4 @@
-# uber_data_engineering_end-to-end
+# taxi_uber_data_engineering_end-to-end
 Basically, we created an end-to-end data engineering project with information from NYC Taxi &amp; Limousine Commission. 
 
 Tools. 
