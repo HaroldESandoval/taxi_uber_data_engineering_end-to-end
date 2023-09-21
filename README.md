@@ -1,7 +1,7 @@
 # uber_data_engineering_end-to-end
 Basically, we created an end-to-end data engineering project with information from NYC Taxi &amp; Limousine Commission. 
 
-Tools 
+Tools. 
 GCP Services: Cloud Storage, Compute Engine, BigQuery, Looker, also worked with an open-source tool [Mage] for transformation and integrating data. Mage is a pipeline tool that is almost the same as Airflow but better. Mage is much easier and more interactive. The last but not least is the Lucid Chart to create a data model structure. 
 
 Process Description
