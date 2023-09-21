@@ -17,6 +17,3 @@ Process Description
 10) hs
    
 
-Questions
-I wanna understand how it works drop_duplicates, because it's not clear to me
-I know that if you want to create a subset from the main base you have to eliminate the duplicate but I need to understand how it's gonna work forward
