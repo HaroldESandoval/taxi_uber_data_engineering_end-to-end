@@ -18,5 +18,12 @@ Process Description
 11) In that address you have to create a new project, create a data loader (Python / API) because we're gonna put the link where is url ='' then we run the app
 12) After we need to transform the data we have to choose Generic (no template) then we need to import pandas in firts line, under the #specify line we have to write all the python code at the final you have to write the formula return what you have to become the tables in dictionaries 
 13) Then you have to create a data exporter choise python plus bigquery, then we need to connect the data expoter with BigQuery API, so we have to go the console and search APIs & Services, the we choose the choise credential, then create credentials, like that we're gonna ensure that the date is connect with all GCP services althoght you can choose whatever you want in that case I chose Role BidQuery admnin. then you choose the credential then the key and create the new key with JSON in that downloaded a file with that information  
-   
-
+14) After in Mage you have to go to io_config.yaml and change the Google_Service_ACC_KEY for the credential information when you replace all you have to clic in View pipeline 
+15) Then we need to go to BigQuery and create a dataset, then that is created we copy the title and after in Mage data Exporte in the line  
+table_id = 'your-project.your_dataset.your_table_name' //replace// table_id = 'my-test-project-399616.uber_data_enginnering_yt.fact_table' (this is important because is the address)
+def export_data_to_big_query(df, **kwargs) -> None: //replace// def export_data_to_big_query(data, **kwargs) -> None:
+df, //replace// DataFrame(data['fact_table'])
+and run de application
+16) It's apper a error we need to go to GCP instances clic in SSH while is running one in the other we can put more code to install cloud and bigquery
+17) run again mage and then the export the fact_table you have to export the other tables 
+18) then you have to use other code to bring the other tables that is in [Uber Export the other files to BigQuery]
