@@ -14,6 +14,9 @@ Process Description
 07) Create a VM instances in Compute Engine (GCP) it's key choose Firewall HTTP and HTTPS
 08) Connect with the instance, it just clics on SSH
 09) Write the code that is in [Active and install programs in Instance]
-10) hs
+10) Go to the instance and in a new page put the External IP address plus localhost before you want to get in to this page you have to clic the name of network interfaces (instances) and after go to the firewall, after create a firewll rule and select in target All instances in the network and Source IP 0.0.0.0/0 and in TCP select the port 
+11) In that address you have to create a new project, create a data loader (Python / API) because we're gonna put the link where is url ='' then we run the app
+12) After we need to transform the data we have to choose Generic (no template) then we need to import pandas in firts line, under the #specify line we have to write all the python code at the final you have to write the formula return what you have to become the tables in dictionaries 
+13) Then you have to create a data exporter choise python plus bigquery, then we need to connect the data expoter with BigQuery API, so we have to go the console and search APIs & Services, the we choose the choise credential, then create credentials, like that we're gonna ensure that the date is connect with all GCP services althoght you can choose whatever you want in that case I chose Role BidQuery admnin. then you choose the credential then the key and create the new key with JSON in that downloaded a file with that information  
    
 
