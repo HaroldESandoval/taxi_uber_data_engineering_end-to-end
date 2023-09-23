@@ -27,3 +27,4 @@ and run de application
 16) It's apper a error we need to go to GCP instances clic in SSH while is running one in the other we can put more code to install cloud and bigquery
 17) run again mage and then the export the fact_table you have to export the other tables 
 18) then you have to use other code to bring the other tables that is in [Uber Export the other files to BigQuery]
+19) then create the SQL formulas 
