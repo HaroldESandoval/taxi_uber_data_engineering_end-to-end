@@ -1,0 +1,58 @@
+#Active the machine
+
+clear
+
+---------
+
+sudo apt-get update -y
+
+---------
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+---------
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+---------
+
+sudo python3 get-pip.py
+
+---------
+
+python3
+
+---------
+
+quit()
+
+---------
+
+sudo pip3 install pandas
+
+---------------------------------------------------------------------------------------------------------
+
+#Active Google Cloud and BigQuery
+
+sudo pip3 install google-cloud 
+
+---------
+
+sudo pip3 install google-cloud-bigquery
+
+---------------------------------------------------------------------------------------------------------
+
+#Active Mage
+Link: https://github.com/mage-ai/mage-ai
+
+---------
+
+sudo pip3 install mage-ai
+
+---------
+
+mage start uber_de_project
